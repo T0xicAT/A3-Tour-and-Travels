@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>UNIVERSITY WEBSITE</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Londrina+Solid&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+
+    </head>
+<body>  
+    <section class="ABOUTHEAD"> 
+        <nav>
+            <a href="index.html"><img src="a3 logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">SERVICES</a></li>
+                    <li><a href="blog.html">PACKAGES</a></li>
+                    <li><a href="contact us.html">CONATCT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>ABOUT US</h1>
+            <p>Join us and Explore about us and become a part of lovely Family A3.</p>
+        </div>
+
+    </section>
+    <!---about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> We are The Most Trusted Agency</h1>
+                <p>Watch the beauty of India and the World through a different lens! Begin your next adventure now only with Thomas Cook Special Tour Packages.
+
+                    A3 tours and travels Special Tour Packages are based on various themes like Air Inclusive Tour Packages, Wildlife Safaris, Veg Special tours, Spiritual Journeys, Bike Trips and Trekking Tour Packages. Enjoy the handcrafted tour packages covering various themes. Whether exploring India on Bike Trips interests you or getting one with the beauty of nature with Trekking Tour Packages, Whether you want to enjoy the thrill of Wildlife Safaris or find your inner peace through the Spiritual Journeys, Whether you want to spend a hassle free holiday with the Air Inclusive Tour Packages or want the comfort of special food requirement through the Veg Special tours, we have got you covered. Simply select your preferred holiday through the wide range of options available and set out onto your next holiday.
+               </p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+    
+    
+      <!--footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>“Travel is the only thing you buy that makes you richer”.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>        
+         </div>
+         <p>Made With <i class="fa fa-heart-o"></i>by A3</p>
+    </section>
+    <!------ javascript fot toggle menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
