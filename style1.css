@@ -95,6 +95,99 @@ nav img{
 nav .fa{
     display: none;
 }
+
+
+
+
+.login-col {
+    background-color: white; 
+    background-image: linear-gradient(to right, #ffffff, #f6f6f6);
+    border-radius: 15px; 
+    width: 400px; 
+    margin: 20px auto; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.login-col:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); 
+}
+
+.input-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+.input-container h2 {
+    margin: 0; 
+    white-space: nowrap; 
+}
+
+.input-container input {
+    flex-grow: 1; 
+}
+
+.login-col h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input-container h2 {
+    margin: 0;
+    white-space: nowrap;
+    color: #666;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login-col p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-col a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-col a:hover {
+    text-decoration: underline;
+}
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
@@ -525,3 +618,34 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+    .login-col {
+        width: 90%; 
+        padding: 20px; 
+        margin: 20px auto; 
+    }
+
+    .login-col h1 {
+        font-size: 24px; 
+    }
+
+    .input-container {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .input-container h2 {
+        margin-bottom: 5px; 
+    }
+
+    .input-container input {
+        width: 100%; 
+    }
+
+    button[type="submit"] {
+        padding: 15px; 
+    }
+
+    .login-col p, .login-col a {
+        font-size: 16px; 
+    }
